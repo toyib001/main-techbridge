@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(191, 216, 243);
+    margin: 0 auto;
+}
+
+.child {
+    text-align: left
+}
+
+.container{
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.container input{
+    margin-bottom: 5px;
+    width: 95%;
+    
+}
+
+#yes {
+    background: blue;
+    width: 95%;
+}
+
+#no {
+    background: rgb(25, 199, 25);
+    margin-top: 10%;
+}
+.parent{
+    
+}
+
+section {
+    
+}
+.close { 
+    text-align: center;
+}
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid;
+    margin: auto;
+    transition-duration: 5s;
+    transform: rotate(60deg);
+    translate: 100px 10px;
+    transition-delay: 5s;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+
+
+
+.box {
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%{
+        transform: scale(0.4);
+    }
+    50%{
+        background-color: purple;
+    }
+    100%{
+        transform: scale(2);
+    }
+} */

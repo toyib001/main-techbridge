@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+}
+
+.parent {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 80;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.logo {
+    width: 500px;
+    /* border: 1px solid black; */
+    padding: 0px 80px;
+}
+
+.logo p1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+.form-part {
+    width: 500px;
+    /* border: 1px solid red; */
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 1px rgba(72, 72, 72, 0.198);
+}
+
+form {
+    background-color: white;
+}
+
+
+input[type="email"],input[type="password"] {
+    display: block;
+    background-color: white;
+    margin: 20px auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    border: none;
+    background-color: blue;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.forgot {
+    text-decoration: none;
+    width: 400px;
+    display: block;
+    color: blue;
+    margin: 0 auto 10px auto;
+    padding: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+hr {
+    border-top: 1px solid rgba(128, 128, 228, 0.614);
+}
+
+.create {
+    text-decoration: none;
+    background-color: green;
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.last {
+    padding: 20px;
+    text-align: center;
+}

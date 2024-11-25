@@ -1,0 +1,42 @@
+h2:hover {
+    color: red;
+}
+
+.title {
+    color: blue;
+}
+
+#services {
+    color: green;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: steelblue;
+}
+
+#google-link:link {
+    color: yellow;
+}
+
+#google-link:visited {
+    color: red;
+}
+
+img {
+    border: 10px solid black;
+}
+
+h2[class~=new] {
+    background: greenyellow;
+}
+body {
+    background: url(/Rain.jpg);
+}
+
+.odd {
+    lnjpk[l]
+}
